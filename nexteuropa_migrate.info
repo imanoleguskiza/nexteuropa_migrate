@@ -1,0 +1,10 @@
+name = NextEuropa Migrate
+description = Base migrate classes for migrations using pivot files
+core = 7.x
+package = NextEuropa Migration
+
+dependencies[] = migrate
+dependencies[] = integration
+dependencies[] = integration_consumer
+
+files[] = includes/newsroom_migrate.abstract.inc
